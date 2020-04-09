@@ -1,0 +1,81 @@
+<html lang="zh-cn">
+<head>
+
+    <title>My JSP 'index.jsp' starting page</title>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+    <!--
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        -->
+    <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="https://tv.swlive.cn/js/external-play.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#start").click(function () {
+                $.ajax({
+
+
+					url: 'http://192.168.1.27:9999/login',
+                    data: {
+                        'id': '223'
+                    },
+
+                    type: "POST",
+                    headers: {
+                        //'token':'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMjMiLCJleHAiOjE1NjgwMDAxNTl9.w7icIMkSZpNl-S-kYI6HIjJFVUqPyfeHqJQhnueed2s'
+                    },
+                    success: function (response) {
+
+                        console.log(JSON.stringify(response));
+                        $("#token").text(JSON.stringify(response));
+                        $.ajax({
+
+                            url: 'http://192.168.1.27:9999/listChatuser',
+
+                            data: {
+                                'page': '1',
+                                'size': '2'
+                            },
+
+                            type: "POST",
+                            headers: {
+                                'token': response.token
+                            },
+                            success: function (response) {
+                                console.log(response);
+
+                                $("#result").text(JSON.stringify(response));
+
+                            },
+                            error: function (response) {
+                                alert("wrong");
+                            }
+                        });
+
+                    },
+                    error: function (response) {
+                        alert("wrong");
+                    }
+                });
+
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+TOKEN:
+<div id="token"></div>
+RESULT:
+<div id="result"></div>
+<input type="button" id="start" value="测试">
+</body>
+</html>
+

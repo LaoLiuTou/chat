@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lt.chat.mapper.ChatuserMapper">
+    <select id="selectChatuserById" parameterType="String" resultType="Chatuser">
+        SELECT * FROM CHATUSER WHERE ID=#{id}
+    </select>
+
+    <delete id="deleteChatuser" parameterType="String">
+        DELETE FROM CHATUSER WHERE ID=#{id}
+    </delete>
+
+    <select id="selectChatuserByParam" parameterType="java.util.Map" resultType="Chatuser">
+        SELECT *
+        FROM CHATUSER
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="id != null">AND ID =#{id}</if>
+            <if test="userid != null">AND USERID =#{userid}</if>
+            <if test="username != null">AND USERNAME =#{username}</if>
+            <if test="userimage != null">AND USERIMAGE =#{userimage}</if>
+            <if test="detail != null">AND DETAIL =#{detail}</if>
+            <if test="addtimeFrom != null">AND unix_timestamp(ADDTIME) &gt;=unix_timestamp(#{addtimeFrom})</if>
+            <if test="addtimeTo != null">AND unix_timestamp(ADDTIME) &lt;=unix_timestamp(#{addtimeTo})</if>
+            <if test="addtime != null">AND ADDTIME =#{addtime}</if>
+            <if test="isonline != null">AND ISONLINE =#{isonline}</if>
+            <if test="flag != null">AND FLAG =#{flag}</if>
+        </trim>
+    </select>
+
+    <update id="updateChatuser" parameterType="Chatuser">
+        UPDATE CHATUSER
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="id != null">ID=#{id},</if>
+            <if test="userid != null">USERID=#{userid},</if>
+            <if test="username != null">USERNAME=#{username},</if>
+            <if test="userimage != null">USERIMAGE=#{userimage},</if>
+            <if test="detail != null">DETAIL=#{detail},</if>
+            <if test="addtime != null">ADDTIME=#{addtime},</if>
+            <if test="isonline != null">ISONLINE=#{isonline},</if>
+            <if test="flag != null">FLAG=#{flag},</if>
+        </trim>
+        WHERE ID=#{id}
+    </update>
+
+    <insert id="addChatuser" parameterType="Chatuser" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO CHATUSER
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userid != null">USERID,</if>
+            <if test="username != null">USERNAME,</if>
+            <if test="userimage != null">USERIMAGE,</if>
+            <if test="detail != null">DETAIL,</if>
+            <if test="addtime != null">ADDTIME,</if>
+            <if test="isonline != null">ISONLINE,</if>
+            <if test="flag != null">FLAG,</if>
+        </trim>
+        <trim prefix="VALUES (" suffix=")" suffixOverrides=",">
+            <if test="userid != null">#{userid},</if>
+            <if test="username != null">#{username},</if>
+            <if test="userimage != null">#{userimage},</if>
+            <if test="detail != null">#{detail},</if>
+            <if test="addtime != null">#{addtime},</if>
+            <if test="isonline != null">#{isonline},</if>
+            <if test="flag != null">#{flag},</if>
+        </trim>
+    </insert>
+
+    <insert id="muladdChatuser" parameterType="java.util.List" keyProperty="id" useGeneratedKeys="true">
+        <foreach collection="list" item="item" index="index" open=""
+                 close="" separator=";">
+            INSERT INTO CHATUSER
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="item.userid != null">USERID,</if>
+                <if test="item.username != null">USERNAME,</if>
+                <if test="item.userimage != null">USERIMAGE,</if>
+                <if test="item.detail != null">DETAIL,</if>
+                <if test="item.addtime != null">ADDTIME,</if>
+                <if test="item.isonline != null">ISONLINE,</if>
+                <if test="item.flag != null">FLAG,</if>
+            </trim>
+            <trim prefix="VALUES (" suffix=")" suffixOverrides=",">
+                <if test="item.userid != null">#{userid},</if>
+                <if test="item.username != null">#{username},</if>
+                <if test="item.userimage != null">#{userimage},</if>
+                <if test="item.detail != null">#{detail},</if>
+                <if test="item.addtime != null">#{addtime},</if>
+                <if test="item.isonline != null">#{isonline},</if>
+                <if test="item.flag != null">#{flag},</if>
+            </trim>
+        </foreach>
+    </insert>
+</mapper>

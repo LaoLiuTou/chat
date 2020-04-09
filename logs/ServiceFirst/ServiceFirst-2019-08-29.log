@@ -1,0 +1,9 @@
+2019/08/29 09:33:39.373 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on CRM144 with PID 5884 (started by Administrator in F:\IdeaWS\chat)
+2019/08/29 09:33:39.456 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2019/08/29 09:33:43.056 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2019/08/29 09:33:43.674 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2019/08/29 09:33:45.746 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/29 09:33:45.891 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2019/08/29 09:33:46.452 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 9.178 seconds (JVM running for 11.944)
+2019/08/29 09:33:47.505 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/29 09:33:47.506 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed

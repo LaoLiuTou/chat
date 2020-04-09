@@ -1,0 +1,47 @@
+2019/09/09 14:21:57.747 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on CRM144 with PID 6120 (started by Administrator in F:\IdeaWS\chat)
+2019/09/09 14:21:57.757 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2019/09/09 14:21:59.881 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2019/09/09 14:22:00.376 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2019/09/09 14:22:01.804 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/09 14:22:02.083 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2019/09/09 14:22:02.669 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 5.527 seconds (JVM running for 7.335)
+2019/09/09 14:22:03.954 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019/09/09 14:22:03.957 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2019/09/09 14:24:17.311 [INFO] main com.lt.chat.ChatApplication Starting ChatApplication on CRM144 with PID 9884 (F:\IdeaWS\chat\target\classes started by Administrator in F:\IdeaWS\chat)
+2019/09/09 14:24:17.318 [INFO] main com.lt.chat.ChatApplication No active profile set, falling back to default profiles: default
+2019/09/09 14:24:18.455 [INFO] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9000 (http)
+2019/09/09 14:24:18.467 [INFO] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9000"]
+2019/09/09 14:24:18.474 [INFO] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019/09/09 14:24:18.475 [INFO] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019/09/09 14:24:18.562 [INFO] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2019/09/09 14:24:18.563 [INFO] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1153 ms
+2019/09/09 14:24:18.608 [INFO] main org.springframework.boot.web.servlet.RegistrationBean Servlet statViewServlet was not registered (possibly already registered?)
+2019/09/09 14:24:18.611 [INFO] main org.springframework.boot.web.servlet.RegistrationBean Filter webStatFilter was not registered (possibly already registered?)
+2019/09/09 14:24:18.668 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2019/09/09 14:24:18.776 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2019/09/09 14:24:19.154 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/09 14:24:19.208 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2019/09/09 14:24:19.350 [INFO] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9000"]
+2019/09/09 14:24:19.369 [INFO] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9000 (http) with context path ''
+2019/09/09 14:24:19.372 [INFO] main com.lt.chat.ChatApplication Started ChatApplication in 2.75 seconds (JVM running for 4.134)
+2019/09/09 14:24:23.381 [INFO] http-nio-9000-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/09 14:24:23.381 [INFO] http-nio-9000-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019/09/09 14:24:23.386 [INFO] http-nio-9000-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2019/09/09 14:24:23.532 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==>  Preparing: SELECT * FROM CHATUSER WHERE ID=? 
+2019/09/09 14:24:23.554 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==> Parameters: 223(String)
+2019/09/09 14:24:23.576 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById <==      Total: 1
+2019/09/09 14:24:23.873 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==>  Preparing: SELECT count(0) FROM CHATUSER 
+2019/09/09 14:24:23.874 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==> Parameters: 
+2019/09/09 14:24:23.875 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT <==      Total: 1
+2019/09/09 14:24:23.878 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==>  Preparing: SELECT * FROM CHATUSER order by ID DESC LIMIT ? 
+2019/09/09 14:24:23.879 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==> Parameters: 2(Integer)
+2019/09/09 14:24:23.882 [DEBUG] http-nio-9000-exec-3 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam <==      Total: 2
+2019/09/09 16:42:29.694 [DEBUG] http-nio-9000-exec-5 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==>  Preparing: SELECT * FROM CHATUSER WHERE ID=? 
+2019/09/09 16:42:29.695 [DEBUG] http-nio-9000-exec-5 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==> Parameters: 223(String)
+2019/09/09 16:42:29.697 [DEBUG] http-nio-9000-exec-5 com.lt.chat.mapper.ChatuserMapper.selectChatuserById <==      Total: 1
+2019/09/09 16:42:29.731 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==>  Preparing: SELECT count(0) FROM CHATUSER 
+2019/09/09 16:42:29.732 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==> Parameters: 
+2019/09/09 16:42:29.734 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT <==      Total: 1
+2019/09/09 16:42:29.735 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==>  Preparing: SELECT * FROM CHATUSER order by ID DESC LIMIT ? 
+2019/09/09 16:42:29.736 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==> Parameters: 2(Integer)
+2019/09/09 16:42:29.738 [DEBUG] http-nio-9000-exec-7 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam <==      Total: 2

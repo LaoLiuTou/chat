@@ -1,0 +1,45 @@
+2020/04/09 09:21:22.203 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on LT with PID 12752 (started by LT in E:\WorkSpace\IdeaWS\chat)
+2020/04/09 09:21:22.214 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2020/04/09 09:21:23.168 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2020/04/09 09:21:23.355 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2020/04/09 09:21:24.045 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:21:24.129 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2020/04/09 09:21:24.421 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 2.547 seconds (JVM running for 3.698)
+2020/04/09 09:21:24.662 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:21:24.664 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2020/04/09 09:30:21.143 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on LT with PID 13796 (started by LT in E:\WorkSpace\IdeaWS\chat)
+2020/04/09 09:30:21.149 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2020/04/09 09:30:22.027 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2020/04/09 09:30:22.171 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2020/04/09 09:30:22.797 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:30:22.873 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2020/04/09 09:30:23.144 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 2.247 seconds (JVM running for 3.066)
+2020/04/09 09:30:23.319 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:30:23.321 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2020/04/09 09:33:50.163 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on LT with PID 936 (started by LT in E:\WorkSpace\IdeaWS\chat)
+2020/04/09 09:33:50.168 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2020/04/09 09:33:51.107 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2020/04/09 09:33:51.294 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2020/04/09 09:33:51.933 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:33:52.018 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2020/04/09 09:33:52.275 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 2.38 seconds (JVM running for 3.205)
+2020/04/09 09:33:52.449 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:33:52.451 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2020/04/09 09:34:55.002 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on LT with PID 22728 (started by LT in E:\WorkSpace\IdeaWS\chat)
+2020/04/09 09:34:55.007 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2020/04/09 09:34:55.902 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2020/04/09 09:34:56.085 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2020/04/09 09:34:56.705 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:34:56.785 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2020/04/09 09:34:57.052 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 2.296 seconds (JVM running for 3.129)
+2020/04/09 09:34:57.235 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020/04/09 09:34:57.236 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2020/04/09 12:01:50.154 [INFO] main com.lt.chat.ChatApplicationTests Starting ChatApplicationTests on LT with PID 35160 (started by LT in E:\WorkSpace\IdeaWS\chat)
+2020/04/09 12:01:50.159 [INFO] main com.lt.chat.ChatApplicationTests No active profile set, falling back to default profiles: default
+2020/04/09 12:01:51.067 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2020/04/09 12:01:51.277 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2020/04/09 12:01:51.907 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020/04/09 12:01:51.979 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2020/04/09 12:01:52.236 [INFO] main com.lt.chat.ChatApplicationTests Started ChatApplicationTests in 2.334 seconds (JVM running for 3.156)
+2020/04/09 12:01:52.398 [INFO] Thread-2 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020/04/09 12:01:52.399 [INFO] Thread-2 com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed

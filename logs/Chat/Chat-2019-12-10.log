@@ -1,0 +1,29 @@
+2019/12/10 15:04:41.362 [INFO] main com.lt.chat.ChatApplication Starting ChatApplication on LT with PID 29752 (E:\WorkSpace\IdeaWS\chat\target\classes started by LT in E:\WorkSpace\IdeaWS\chat)
+2019/12/10 15:04:41.372 [INFO] main com.lt.chat.ChatApplication No active profile set, falling back to default profiles: default
+2019/12/10 15:04:42.310 [INFO] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9000 (http)
+2019/12/10 15:04:42.325 [INFO] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9000"]
+2019/12/10 15:04:42.333 [INFO] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019/12/10 15:04:42.334 [INFO] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019/12/10 15:04:42.416 [INFO] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2019/12/10 15:04:42.416 [INFO] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1007 ms
+2019/12/10 15:04:42.459 [INFO] main org.springframework.boot.web.servlet.RegistrationBean Servlet statViewServlet was not registered (possibly already registered?)
+2019/12/10 15:04:42.461 [INFO] main org.springframework.boot.web.servlet.RegistrationBean Filter webStatFilter was not registered (possibly already registered?)
+2019/12/10 15:04:42.517 [INFO] main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2019/12/10 15:04:42.634 [INFO] main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2019/12/10 15:04:42.984 [INFO] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019/12/10 15:04:43.034 [INFO] main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2019/12/10 15:04:43.164 [INFO] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9000"]
+2019/12/10 15:04:43.182 [INFO] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9000 (http) with context path ''
+2019/12/10 15:04:43.185 [INFO] main com.lt.chat.ChatApplication Started ChatApplication in 2.288 seconds (JVM running for 3.332)
+2019/12/10 15:05:58.723 [INFO] http-nio-9000-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/12/10 15:05:58.724 [INFO] http-nio-9000-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019/12/10 15:05:58.734 [INFO] http-nio-9000-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2019/12/10 15:05:59.307 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==>  Preparing: SELECT * FROM CHATUSER WHERE ID=? 
+2019/12/10 15:05:59.380 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById ==> Parameters: 223(String)
+2019/12/10 15:05:59.482 [DEBUG] http-nio-9000-exec-1 com.lt.chat.mapper.ChatuserMapper.selectChatuserById <==      Total: 1
+2019/12/10 15:05:59.798 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==>  Preparing: SELECT count(0) FROM CHATUSER 
+2019/12/10 15:05:59.798 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT ==> Parameters: 
+2019/12/10 15:05:59.836 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam_COUNT <==      Total: 1
+2019/12/10 15:05:59.838 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==>  Preparing: SELECT * FROM CHATUSER order by ID DESC LIMIT ? 
+2019/12/10 15:05:59.839 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam ==> Parameters: 2(Integer)
+2019/12/10 15:05:59.875 [DEBUG] http-nio-9000-exec-4 com.lt.chat.mapper.ChatuserMapper.selectChatuserByParam <==      Total: 1
