@@ -20,7 +20,7 @@
                 $.ajax({
 
 
-					url: 'http://192.168.1.27:9999/login',
+					url: 'http://192.168.1.29:9999/login',
                     data: {
                         'id': '223'
                     },
@@ -35,7 +35,7 @@
                         $("#token").text(JSON.stringify(response));
                         $.ajax({
 
-                            url: 'http://192.168.1.27:9999/listChatuser',
+                            url: 'http://192.168.1.29:9999/listChatuser',
 
                             data: {
                                 'page': '1',

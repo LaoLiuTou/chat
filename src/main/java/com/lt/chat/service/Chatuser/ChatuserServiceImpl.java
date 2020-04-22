@@ -1,7 +1,7 @@
-package com.lt.chat.service;
+package com.lt.chat.service.Chatuser;
 
-import com.lt.chat.entity.Chatuser;
-import com.lt.chat.mapper.ChatuserMapper;
+import com.lt.chat.entity.Chatuser.Chatuser;
+import com.lt.chat.mapper.Chatuser.ChatuserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

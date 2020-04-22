@@ -1,4 +1,4 @@
-package com.lt.chat.entity;
+package com.lt.chat.entity.Chatuser;
 
 public class Chatuser {
 

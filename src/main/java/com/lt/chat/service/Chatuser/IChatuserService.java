@@ -1,7 +1,7 @@
-package com.lt.chat.service;
+package com.lt.chat.service.Chatuser;
 
 
-import com.lt.chat.entity.Chatuser;
+import com.lt.chat.entity.Chatuser.Chatuser;
 
 import java.util.List;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package com.lt.chat.mapper;
+package com.lt.chat.mapper.Chatuser;
 
 
-import com.lt.chat.entity.Chatuser;
+import com.lt.chat.entity.Chatuser.Chatuser;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

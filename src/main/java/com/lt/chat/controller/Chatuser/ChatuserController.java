@@ -1,11 +1,11 @@
-package com.lt.chat.controller;
+package com.lt.chat.controller.Chatuser;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lt.chat.entity.Chatuser;
-import com.lt.chat.service.IChatuserService;
+import com.lt.chat.entity.Chatuser.Chatuser;
+import com.lt.chat.service.Chatuser.IChatuserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
